@@ -203,6 +203,6 @@ entries:
     - https://github.com/imio/helm-plausible-analytics
     type: application
     urls:
-    - https://imio.github.io/helm-charts/plausible-analytics-0.1.0.tgz
+    - https://imio.github.io/helm-charts/plausible-analytics/plausible-analytics-0.1.0.tgz
     version: 0.1.0
 generated: "2023-09-01T12:49:09.749324772Z"
