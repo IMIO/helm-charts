@@ -1,5 +1,17 @@
 apiVersion: v1
 entries:
+  helm-smtp4dev:
+  - apiVersion: v2
+    appVersion: 3.1.4
+    created: "2024-01-12T13:53:42.954207533Z"
+    description: A Helm chart for helm-smtp4dev
+    digest: 44f74ebec6b8b1b9b8a58fecb028da1579a0cf88234212fdb7ac77d224cd2ae2
+    icon: https://raw.githubusercontent.com/rnwood/smtp4dev/master/logo.svg
+    name: helm-smtp4dev
+    type: application
+    urls:
+    - https://imio.github.io/helm-charts/smtp4dev/helm-smtp4dev-0.0.1.tgz
+    version: 0.0.1
   plausible-analytics:
   - apiVersion: v2
     appVersion: 2.0.0
@@ -307,4 +319,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/plausible-analytics/plausible-analytics-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-10T14:00:50.425340792Z"
+generated: "2024-01-12T13:53:42.953360595Z"
