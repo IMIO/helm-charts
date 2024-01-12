@@ -319,4 +319,19 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/plausible-analytics/plausible-analytics-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-12T13:53:42.953360595Z"
+  smtp4dev:
+  - apiVersion: v2
+    appVersion: 3.1.4
+    created: "2024-01-12T13:59:50.138633106Z"
+    description: A Helm chart for helm-smtp4dev
+    digest: c1e166d9bff537399b96bf3457c22abaff166dcf678c9ce2e8c5dfafae07b0fc
+    icon: https://raw.githubusercontent.com/rnwood/smtp4dev/master/logo.svg
+    maintainers:
+    - name: iMio
+      url: https://imio.github.io/helm-charts/
+    name: smtp4dev
+    type: application
+    urls:
+    - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-01-12T13:59:50.13782393Z"
