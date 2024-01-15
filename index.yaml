@@ -322,10 +322,10 @@ entries:
   smtp4dev:
   - apiVersion: v2
     appVersion: 3.1.4
-    created: "2024-01-15T13:05:53.971195609Z"
+    created: "2024-01-15T13:40:36.402691994Z"
     description: A Helm chart for helm-smtp4dev
-    digest: 700a8e338364cf0a64898cd9b9f097c5a80eb507e94a2b32d459a9044ac88dc5
-    icon: https://github.com/rnwood/smtp4dev/blob/master/Rnwood.Smtp4dev/ClientApp/public/logo.png
+    digest: a0cc89ebd5557509035179da92e3f2fcabf1a10932140ed277ccf1f7b825aa56
+    icon: https://raw.githubusercontent.com/rnwood/smtp4dev/master/Rnwood.Smtp4dev/ClientApp/public/logo.png
     keywords:
     - smtp4dev
     - fake smtp email server
@@ -356,4 +356,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
     version: 0.0.1
-generated: "2024-01-15T13:05:53.970071573Z"
+generated: "2024-01-15T13:40:36.401463003Z"
