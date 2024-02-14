@@ -390,9 +390,9 @@ entries:
   smtp4dev:
   - apiVersion: v2
     appVersion: 3.1.4
-    created: "2024-01-15T13:40:36.402691994Z"
+    created: "2024-02-14T16:16:48.35390662Z"
     description: A Helm chart for helm-smtp4dev
-    digest: a0cc89ebd5557509035179da92e3f2fcabf1a10932140ed277ccf1f7b825aa56
+    digest: 7a7967372ebbca4e3c9afec9ed2e2ee237726baec56fddcafb78bccab86f4266
     icon: https://raw.githubusercontent.com/rnwood/smtp4dev/master/Rnwood.Smtp4dev/ClientApp/public/logo.png
     keywords:
     - smtp4dev
@@ -424,4 +424,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
     version: 0.0.1
-generated: "2024-02-14T13:25:30.983845119Z"
+generated: "2024-02-14T16:16:48.352848823Z"
