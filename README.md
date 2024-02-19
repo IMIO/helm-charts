@@ -19,6 +19,12 @@ helm repo update
   helm install your-release-name imio/plausible-analytics
   ```
 
+* [smtp4dev](https://github.com/IMIO/helm-smtp4dev)
+
+  ```bash
+  helm install your-release-name imio/smtp4dev
+  ```
+
 ### License
 
 [Apache License 2.0](/LICENSE)
