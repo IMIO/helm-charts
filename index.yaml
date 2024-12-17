@@ -40,7 +40,7 @@ entries:
   plausible-analytics:
   - apiVersion: v2
     appVersion: 2.1.1
-    created: "2024-11-19T14:13:53.199053327Z"
+    created: "2024-12-17T15:54:08.135746284Z"
     dependencies:
     - alias: postgresql
       condition: postgresql.enabled
@@ -54,8 +54,8 @@ entries:
       version: 3.6.7
     description: A Helm Chart for Plausible Analytics - Simple, open-source, lightweight
       (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.
-    digest: 0dfac600166c5ea99a2ef0ad1b4dfa1870ae1109ce0d67cd1bfdc721575cb924
-    icon: https://plausible.io/assets/images/icon/plausible_logo.compressed.png
+    digest: e605bbe2ef83bf115485f870ae131f26773f2b82b3c36e519c1ab7c38dc8fa9a
+    icon: https://plausible.io/uploads/plausible-community-edition.png
     keywords:
     - web analytics
     - analytics
@@ -607,4 +607,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
     version: 0.0.1
-generated: "2024-12-17T15:37:24.820433761Z"
+generated: "2024-12-17T15:54:08.116144555Z"
