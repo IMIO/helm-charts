@@ -13,6 +13,12 @@ helm repo update
 
 ### Helm Charts
 
+* [odoo](https://github.com/IMIO/helm-odoo)
+
+  ```bash
+  helm install your-release-name imio/odoo
+  ```
+
 * [plausible-analytics](https://github.com/IMIO/helm-plausible-analytics)
 
   ```bash
