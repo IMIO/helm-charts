@@ -205,6 +205,21 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/odoo/odoo-0.2.0.tgz
     version: 0.2.0
+  onechart:
+  - apiVersion: v2
+    created: "2025-08-13T12:08:02.886125896Z"
+    description: Fork of One chart to rule them all. An opiniated Helm chart for our
+      application deployments. Because no-one, espacially us, can remember the Kubernetes
+      yaml syntax.
+    digest: 1fcc7da06b532436a385092f31d083491429db50d79ab9cec7b4eaee1b558670
+    maintainers:
+    - name: IMIO
+      url: https://github.com/IMIO/
+    name: onechart
+    type: application
+    urls:
+    - https://imio.github.io/helm-charts/onechart/onechart-0.74.0.tgz
+    version: 0.74.0
   plausible-analytics:
   - apiVersion: v2
     appVersion: 3.0.1
@@ -843,4 +858,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
     version: 0.0.1
-generated: "2025-07-09T08:59:40.043677635Z"
+generated: "2025-08-13T12:08:02.884691392Z"
