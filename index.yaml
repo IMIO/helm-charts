@@ -223,6 +223,40 @@ entries:
   plausible-analytics:
   - apiVersion: v2
     appVersion: 3.0.1
+    created: "2025-08-22T14:50:30.18659118Z"
+    dependencies:
+    - alias: postgresql
+      condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 16.x.x
+    - alias: clickhouse
+      condition: clickhouse.enabled
+      name: clickhouse
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 7.x.x
+    description: A Helm Chart for Plausible Analytics - Simple, open-source, lightweight
+      (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.
+    digest: a8e6063b838ae2a388f53d15e9f0d3b4ae86d21e438e2a118726b72745bb9af1
+    icon: https://plausible.io/uploads/plausible-community-edition.png
+    keywords:
+    - web analytics
+    - analytics
+    - plausible
+    maintainers:
+    - name: IMIO
+      url: https://github.com/IMIO/
+    name: plausible-analytics
+    sources:
+    - https://github.com/plausible/analytics
+    - https://github.com/imio/helm-charts
+    - https://github.com/imio/helm-plausible-analytics
+    type: application
+    urls:
+    - https://imio.github.io/helm-charts/plausible-analytics/plausible-analytics-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v2
+    appVersion: 3.0.1
     created: "2025-07-09T08:59:40.058762142Z"
     dependencies:
     - alias: postgresql
@@ -858,4 +892,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
     version: 0.0.1
-generated: "2025-08-13T12:08:02.884691392Z"
+generated: "2025-08-22T14:50:30.163286098Z"
