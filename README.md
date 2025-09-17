@@ -30,6 +30,11 @@ helm repo update
   ```bash
   helm install your-release-name imio/smtp4dev
   ```
+* [onechart](https://github.com/IMIO/helm-onechart)
+
+  ```bash
+  helm install your-release-name imio/onechart
+  ```
 
 ### License
 
