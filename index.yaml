@@ -881,6 +881,24 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/plausible-analytics/plausible-analytics-0.1.0.tgz
     version: 0.1.0
+  plone:
+  - apiVersion: v2
+    appVersion: "6.0"
+    created: "2026-01-06T12:38:24.521083237Z"
+    description: A Helm chart for Plone CMS on Kubernetes with PostgreSQL, Solr, and
+      Memcached
+    digest: 1d9fa78bebee7249b8c689f8efd9bf4796f1803a1e82fe494fa72ed55ce98129
+    home: https://github.com/IMIO/helm-charts
+    maintainers:
+    - name: iMio
+      url: https://github.com/IMIO/
+    name: plone
+    sources:
+    - https://github.com/imio/plone6-k8s
+    type: application
+    urls:
+    - https://imio.github.io/helm-charts/plone/plone-0.0.2.tgz
+    version: 0.0.2
   smtp4dev:
   - apiVersion: v2
     appVersion: 3.6.1
@@ -940,4 +958,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
     version: 0.0.1
-generated: "2025-12-23T10:43:38.037038103Z"
+generated: "2026-01-06T12:38:24.519786695Z"
