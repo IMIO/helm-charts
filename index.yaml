@@ -884,10 +884,10 @@ entries:
   plone:
   - apiVersion: v2
     appVersion: "6.0"
-    created: "2026-01-09T15:00:15.358650761Z"
+    created: "2026-01-09T15:03:03.242721198Z"
     description: A Helm chart for Plone CMS on Kubernetes with PostgreSQL, Solr, and
       Memcached
-    digest: 9eac3f7ffd8d3d9166febe6e4f808736226c8afa1daffd691e3035bd315b9944
+    digest: 4d318375fa452cd32ab49a616571283d746b90fee36a23675a6dac736f984403
     home: https://github.com/IMIO/helm-charts
     keywords:
     - plone
@@ -962,4 +962,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
     version: 0.0.1
-generated: "2026-01-09T15:00:15.357366738Z"
+generated: "2026-01-09T15:03:03.241469599Z"
