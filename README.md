@@ -19,21 +19,28 @@ helm repo update
   helm install your-release-name imio/odoo
   ```
 
+* [onechart](https://github.com/IMIO/helm-onechart)
+
+  ```bash
+  helm install your-release-name imio/onechart
+  ```
+
 * [plausible-analytics](https://github.com/IMIO/helm-plausible-analytics)
 
   ```bash
   helm install your-release-name imio/plausible-analytics
   ```
 
+* [odoo](https://github.com/IMIO/helm-plone)
+
+  ```bash
+  helm install your-release-name imio/plone
+  ```
+
 * [smtp4dev](https://github.com/IMIO/helm-smtp4dev)
 
   ```bash
   helm install your-release-name imio/smtp4dev
-  ```
-* [onechart](https://github.com/IMIO/helm-onechart)
-
-  ```bash
-  helm install your-release-name imio/onechart
   ```
 
 ### License
