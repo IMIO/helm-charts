@@ -31,7 +31,7 @@ helm repo update
   helm install your-release-name imio/plausible-analytics
   ```
 
-* [odoo](https://github.com/IMIO/helm-plone)
+* [plone](https://github.com/IMIO/helm-plone)
 
   ```bash
   helm install your-release-name imio/plone
