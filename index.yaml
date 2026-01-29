@@ -255,11 +255,11 @@ entries:
     version: 0.2.0
   onechart:
   - apiVersion: v2
-    created: "2025-08-13T12:08:02.886125896Z"
+    created: "2026-01-29T09:24:06.589306453Z"
     description: Fork of One chart to rule them all. An opiniated Helm chart for our
       application deployments. Because no-one, espacially us, can remember the Kubernetes
       yaml syntax.
-    digest: 1fcc7da06b532436a385092f31d083491429db50d79ab9cec7b4eaee1b558670
+    digest: 4471ba0a2503592de5142dd793165d913a01c30bbbd2656836bdecac2d898e49
     maintainers:
     - name: IMIO
       url: https://github.com/IMIO/
@@ -962,4 +962,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
     version: 0.0.1
-generated: "2026-01-20T12:43:47.008726385Z"
+generated: "2026-01-29T09:24:06.58770808Z"
