@@ -15,6 +15,30 @@ entries:
   odoo:
   - apiVersion: v2
     appVersion: "16.0"
+    created: "2026-04-16T07:35:37.949162603Z"
+    dependencies:
+    - alias: postgresql
+      condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.x.x
+    description: An opiniated Helm Chart for deploying Odoo
+    digest: c8177f18d4c073974d020301977e61d0c816b1e46ce50f2237d64cfaf9a75963
+    icon: https://odoocdn.com/openerp_website/static/src/img/assets/png/odoo_logo_medium.png
+    maintainers:
+    - name: IMIO
+      url: https://github.com/IMIO/
+    name: odoo
+    sources:
+    - https://github.com/odoo/odoo
+    - https://github.com/imio/helm-charts
+    - https://github.com/imio/helm-odoo
+    type: application
+    urls:
+    - https://imio.github.io/helm-charts/odoo/odoo-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: "16.0"
     created: "2026-04-15T13:39:16.00186172Z"
     dependencies:
     - alias: postgresql
@@ -1038,4 +1062,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
     version: 0.0.1
-generated: "2026-04-15T13:39:15.995755744Z"
+generated: "2026-04-16T07:35:37.942891509Z"
