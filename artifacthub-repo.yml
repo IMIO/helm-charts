@@ -1,0 +1,12 @@
+# Artifact Hub repository metadata file
+# https://artifacthub.io/docs/topics/repositories/
+#
+# The repositoryID below must match the ID Artifact Hub assigned to this
+# repository. It enables the "Verified Publisher" flag, which is applied the
+# next time the repository is processed. For Helm HTTP repositories, Artifact
+# Hub only reprocesses when index.yaml changes (ownership claims via `owners`
+# are processed immediately).
+repositoryID: ed2d8258-1768-4be0-a808-a264038d5cee
+owners:
+  - name: IMIO
+    email: devops@imio.be
