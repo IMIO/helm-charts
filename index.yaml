@@ -1342,6 +1342,28 @@ entries:
   smtp4dev:
   - apiVersion: v2
     appVersion: 3.6.1
+    created: "2026-07-16T12:03:58.140563064Z"
+    description: A Helm chart for helm-smtp4dev
+    digest: c8d611a86c25b7d474f267a7b773b414a0b49ce34eb9556aee18e06c7e42e103
+    icon: https://raw.githubusercontent.com/rnwood/smtp4dev/master/Rnwood.Smtp4dev/ClientApp/public/logo.png
+    keywords:
+    - smtp4dev
+    - fake smtp email server
+    - development
+    maintainers:
+    - name: IMIO
+      url: https://github.com/IMIO/
+    name: smtp4dev
+    sources:
+    - https://github.com/imio/helm-charts
+    - https://github.com/imio/helm-smtp4dev
+    - https://github.com/rnwood/smtp4dev
+    type: application
+    urls:
+    - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 3.6.1
     created: "2024-08-13T13:46:10.308391843Z"
     description: A Helm chart for helm-smtp4dev
     digest: a70e58b694cec6f4b48b666e8539e653f206110ddeaabd7f44ff52e125ce128c
@@ -1398,4 +1420,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/smtp4dev/smtp4dev-0.0.1.tgz
     version: 0.0.1
-generated: "2026-07-15T11:59:07.593682485Z"
+generated: "2026-07-16T12:03:58.139551829Z"

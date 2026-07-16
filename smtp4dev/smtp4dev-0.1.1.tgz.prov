@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 3.6.1
+description: A Helm chart for helm-smtp4dev
+icon: https://raw.githubusercontent.com/rnwood/smtp4dev/master/Rnwood.Smtp4dev/ClientApp/public/logo.png
+keywords:
+- - smtp4dev
+- - fake smtp email server
+- - development
+maintainers:
+- - name: IMIO
+  url: https://github.com/IMIO/
+name: smtp4dev
+sources:
+- - https://github.com/imio/helm-charts
+- - https://github.com/imio/helm-smtp4dev
+- - https://github.com/rnwood/smtp4dev
+type: application
+version: 0.1.1
+
+...
+files:
+  smtp4dev-0.1.1.tgz: sha256:c8d611a86c25b7d474f267a7b773b414a0b49ce34eb9556aee18e06c7e42e103
+
+-----BEGIN PGP SIGNATURE-----
+
+wrsEARYKAG0FgmpYyKwJEIAcJ/2eSKkqRRQAAAAAABwAIHNhbHRAbm90YXRpb25z
+Lm9wZW5wZ3Bqcy5vcme5k+owV0eGy1LAXuHQtDIM88A9nT599C2CczW603GcUhYh
+BJnQ1k+FmHXox0zZEIAcJ/2eSKkqAAD30QEAkofP+z+omSHnB8pnBE0a69c/7W65
+gOsA0tHdtL0zTg4A/1jq9p3vLttRQqV6qJMFqG1AbsQKkhBHz/QnHNWEZkEI
+-----END PGP SIGNATURE-----
