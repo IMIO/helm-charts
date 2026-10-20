@@ -1567,6 +1567,21 @@ entries:
   vault-secretstore-controller:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2026-10-20T07:40:20.080612795Z"
+    description: Per-cluster Vault SecretStore operator (INFRA-6881) — reconciles
+      external-secrets-approle Secret/SecretStore pairs from Vault AppRole Role state
+    digest: 1c69e67db6721827a02f6ac4cd2afb0e497198595deef12d940e5a2e7e704539
+    maintainers:
+    - name: IMIO
+    name: vault-secretstore-controller
+    sources:
+    - https://gitlab.imio.be/infra/k8s/vault-secrestore-controller
+    type: application
+    urls:
+    - https://imio.github.io/helm-charts/vault-secretstore-controller/vault-secretstore-controller-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2026-10-20T07:18:05.274217638Z"
     description: Per-cluster Vault SecretStore operator (INFRA-6881) — reconciles
       external-secrets-approle Secret/SecretStore pairs from Vault AppRole Role state
@@ -1580,4 +1595,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/vault-secretstore-controller/vault-secretstore-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-20T07:18:05.273652124Z"
+generated: "2026-10-20T07:40:20.079446939Z"
