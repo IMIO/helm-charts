@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: "18.0"
+dependencies:
+- - alias: postgresql
+  condition: postgresql.enabled
+  name: postgres
+  repository: oci://registry-1.docker.io/cloudpirates
+  version: 0.19.8
+description: An opiniated Helm Chart for deploying Odoo
+icon: https://odoocdn.com/openerp_website/static/src/img/assets/png/odoo_logo_medium.png
+maintainers:
+- - name: IMIO
+  url: https://github.com/IMIO/
+name: odoo
+sources:
+- - https://github.com/odoo/odoo
+- - https://github.com/imio/helm-charts
+- - https://github.com/imio/helm-odoo
+type: application
+version: 3.2.2
+
+...
+files:
+  odoo-3.2.2.tgz: sha256:10a9f8d557158bf5dd54844389111e9b882b6e3e4fa1784e245d5dad9312600e
+
+-----BEGIN PGP SIGNATURE-----
+
+wrsEARYKAG0FgmriBkMJEIAcJ/2eSKkqRRQAAAAAABwAIHNhbHRAbm90YXRpb25z
+Lm9wZW5wZ3Bqcy5vcmeEn0wy12pbo29cnBS9EemkscM28jgRILlALy/apjhq2xYh
+BJnQ1k+FmHXox0zZEIAcJ/2eSKkqAACECgEA1ZioxhfyicoBvWQE8v4l88x9xPYj
+5ARj+K0JG8W4yh0BAMjRZmZgh3NdDbpin/Ylvz9eBANnmmBCCrT8QWs5aUoM
+-----END PGP SIGNATURE-----
