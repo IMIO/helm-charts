@@ -15,6 +15,30 @@ entries:
   odoo:
   - apiVersion: v2
     appVersion: "18.0"
+    created: "2026-11-10T14:10:59.492874063Z"
+    dependencies:
+    - alias: postgresql
+      condition: postgresql.enabled
+      name: postgres
+      repository: oci://registry-1.docker.io/cloudpirates
+      version: 0.19.8
+    description: An opiniated Helm Chart for deploying Odoo
+    digest: cb3d109201972b903f0ba3bb2f21357c88d97fc950d250f38edc0c92f85f73b6
+    icon: https://odoocdn.com/openerp_website/static/src/img/assets/png/odoo_logo_medium.png
+    maintainers:
+    - name: IMIO
+      url: https://github.com/IMIO/
+    name: odoo
+    sources:
+    - https://github.com/odoo/odoo
+    - https://github.com/imio/helm-charts
+    - https://github.com/imio/helm-odoo
+    type: application
+    urls:
+    - https://imio.github.io/helm-charts/odoo/odoo-4.0.0.tgz
+    version: 4.0.0
+  - apiVersion: v2
+    appVersion: "18.0"
     created: "2026-11-10T14:05:59.002978921Z"
     dependencies:
     - alias: postgresql
@@ -1681,4 +1705,4 @@ entries:
     urls:
     - https://imio.github.io/helm-charts/vault-secretstore-controller/vault-secretstore-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-10T14:05:58.99926615Z"
+generated: "2026-11-10T14:10:59.488287016Z"
